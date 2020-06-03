@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.interviewprep">
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="Q"
+        />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/interview"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".FrontPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Simple_question"></activity>
+        <activity android:name=".Tough_questions"></activity>
+    </application>
+
+</manifest>

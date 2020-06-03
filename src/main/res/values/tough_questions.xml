@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tough_ques">
+        <item> Why cant you run standard Java bytecode on Android?</item>
+        <item>What is the difference between a regular .png and a nine-patch image?</item>
+        <item>There are four Java classes related to the use of sensors on the Android platform. List them and explain the purpose of each?</item>
+        <item>
+            What is difference between Serializable and Parcelable? Which is best approach in Android?
+        </item>
+        <item>
+            How do you supply construction arguments into a Fragment?
+        </item>
+        <item>
+            What is ANR, and why does it happen?
+        </item>
+        <item>
+            How can two Android applications share same Linux user ID and share same VM?
+        </item>
+        <item>
+            How would you check for the presence of a Compass sensor on the system using the hasSystemFeature() method?
+        </item>
+        <item>Name some exceptions in android?</item>
+        <item>What is a ContentProvider and what is it typically used for?</item>
+        <item>The last callback in the lifecycle of an activity is onDestroy(). The system calls this method on your activity as the final signal that your activity instance is being completely removed from the system memory. Usually, the system will call onPause() and onStop() before calling onDestroy(). Describe a scenario, though, where onPause() and onStop() would not be invoked.</item>
+        <item>Describe three common use cases for using an Intent.</item>
+        <item>What is DDMS? Describe some of its capabilities.</item>
+    </string-array>
+</resources>

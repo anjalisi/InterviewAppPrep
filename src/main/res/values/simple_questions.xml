@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="simple_ques">
+        <item>What is Android?</item>
+        <item>What is the Google Android SDK?</item>
+        <item>Explain android activity life cycle.</item>
+        <item>How to stop the services in android?</item>
+        <item>How to store heavy structured data in android?</item>
+        <item>What are the functionalities of HTTP Client interface
+            in android?
+        </item>
+        <item> What are the JSON elements in android?</item>
+        <item>What is bean class in android?</item>
+        <item> Fragment in Android can be found through?</item>
+        <item>What is the package name of JSON?</item>
+        <item>Persist data can be stored in Android through?</item>
+        <item>What is a context in android ?</item>
+        <item>What are the layouts available in android?</item>
+        <item>What is a thread in android?</item>
+        <item>What is Manifest.xml in android?</item>
+        <item>What is the purpose of super.onCreate() in android?</item>
+    </string-array>
+    
+</resources>

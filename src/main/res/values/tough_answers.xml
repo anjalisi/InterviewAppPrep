@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tough_ans">
+        <item>Android does not use the traditional Java Virtual Machine. Instead, it uses Dalvik Virtual Machine that uses a special bytecode. That is why we cannot execute standard Java programs on an Android device. DVM is optimized for mobile devices. It optimizes the virtual machine for memory, performance and battery life. The applications that can run on Android are .apk files. It is a unique compiled code that stands for Android Package.
+You can develop your code in Java. But you need to change the .jar files to .apk files before you can run your program in Android. The android tool called dx tool or the Dex compiler converts the Java class files into .dex files that can run on DVM. Android Assets Packaging Tool converts the .dex files in .apk files.</item>
+        <item>
+            A nine patch image is a stretchable bitmap image that can be used as a background of a view. Android automatically resizes the image to accommodate the content of the view. The nine patch image helps android in its goal to support a variety of different screen sizes. The main difference between a regular .png and nine patch image is that the latter includes an extra 1-pixel border around the image that determines where the image can be stretched to meet the specific layout constraints. The image can be divided into 9 sections. The 4 corners are static, the 4 edges are scaled in 1 axis and the center one can be scaled in both the axis. The extension of the nine patch images is .9.png.
+        </item>
+        <item>
+            The sensor framework that forms a part of Android package includes the following Java Classes
+1. Sensor- This class helps you create an instance of a specific sensor. It also provides methods that let you determine the capabilities of the sensor.
+
+2. Sensor Manager- This class is used to create an instance of the sensor service. It provides methods for accessing and listing sensors, registering sensor event listeners.
+
+3. Sensor Event-This Java class is used to create a sensor event object. It provides information regarding the sensor event including raw sensor data, type of sensor, accuracy of data, timestamp of event etc.
+
+4. Sensor Event Listener- This interface is used to create callback methods that receive sensor event notification when sensor value changes or sensor accuracy changes.
+        </item>
+        <item>
+            While developing applications we often need to transfer data from one activity to another. This data needs to be included into a corresponding intent object. Some additional actions are also required to make the data suitable for transfer. For doing that the object should be serializable or parseable. Serializable is a standard Java interface. It is a simple approach where you simply mark a class serializable by implementing the interface and Java automatically serializes it. Reflection is used during the process and a lot of additional objects are created. This leads to a lot of garbage collection and poor performance.
+Parcelable interface is a part of Android SDK where you implement the serialization yourself. Reflection is not used during this process and no garbage is created. It is faster because it is optimized for usage on android development, and shows better results.
+        </item>
+        <item>In order to communicate from host activity to fragment, construction arguments are passed via Bundle. Setarguments(Bundle) is used to supply construction arguments for a fragment. Getarguments() is used to retrieve the arguments supplied to setarguments(bundle).</item>
+        <item>
+            ANR refers to Application Not responding. It is a dialog box that appears when the user is interacting with an activity but activity is on Resume() method. Basically, the application does not respond for more than 5 seconds. The user is given the option of either closing the app or waiting for it to finish running. We may face this when a heavy long running task starts in the main UI thread. In order to prevent this, we can avoid running activities that require complex computations on the main thread. We can run such tasks in the background using Async Task class.
+
+If you are an experienced professional with 1 year, 2 year or 3 years of experience in working with Android, the interviewer may ask you some very technical questions to test your in-depth knowledge. Here are some Android interview questions and answers for experienced professionals looking for a job change. Organizations are ready to provide a huge pay package to skilled professionals. So if you are well prepared with these basic Android developer interview questions you are sure to land a high paying job.
+        </item>
+        <item>
+            If two android applications require sharing same Linux user ID and same VM, they must sign with the same certificate. Android assigns a unique user ID to each application. If this attribute is set to the same value for 2 applications they will share the same ID.
+        </item>
+        <item>
+            The sensor framework that forms a part of Android package has Sensor and SensorManager classes. But these classes do not provide the hasSystemFeature() method. So they cannot be used for evaluating a system’s capabilities. The PackageManager class can in fact be used to find out information about the application packages available on a given device. One way of checking the presence of a Compass sensor on the system is
+PackageManager myCompass = getPackageManger();
+If (!myCompass.hasSystemFeature(PackageManager.FEATURE_SENSOR_COMPASS))
+{
+// This device lacks a compass, disable the compass feature
+}
+        </item>
+        <item> Inflate Exception- This exception is thrown by an inflater on error conditions.
+o Surface.OutOfResourceException – This Exception is thrown when a surface couldnt be created or resized.
+o SurfaceHolder.BadSurfaceTypeException– This exception is thrown from lockCanvas() when called on a Surface whose type is SURFACE_TYPE_PUSH_BUFFERS.
+o WindowManager.BadTokenException – This Exception is thrown when trying to add view whose WindowManager.LayoutParams token is invalid.
+10. Explain hybrid example in java.
+Hybrid inheritance is a combination of single and multiple inheritance. Since Java doesnt support multiple inheritances with classes, hybrid inheritance is also not possible with classes. Hybrid inheritance can be achieved in the same way as multiple inheritances, that is through interfaces. We cannot extend two classes at a time, but we can implement two interfaces at a time. We use interfaces to declare methods. An interface is then extended by two different sub interfaces. Then a class implements these two sub interfaces to attain hybrid inheritance.
+Hybrid Inheritance in Java</item>
+        <item>
+A ContentProvider manages access to a structured set of data. It encapsulates the data and provide mechanisms for defining data security. ContentProvider is the standard interface that connects data in one process with code running in another process.
+
+More information about content providers can be found here in the Android Developers Guide.
+        </item>
+        <item>
+            onPause() and onStop() will not be invoked if finish() is called from within the onCreate() method. This might occur, for example, if you detect an error during onCreate() and call finish() as a result. In such a case, though, any cleanup you expected to be done in onPause() and onStop() will not be executed.
+
+Although onDestroy() is the last callback in the lifecycle of an activity, it is worth mentioning that this callback may not always be called and should not be relied upon to destroy resources. It is better have the resources created in onStart() and onResume(), and have them destroyed in onStop() and onPause(), respectively.
+        </item>
+        <item>
+            Common use cases for using an Intent include:
+
+To start an activity: You can start a new instance of an Activity by passing an Intent to startActivity() method.
+To start a service: You can start a service to perform a one-time operation (such as download a file) by passing an Intent to startService().
+To deliver a broadcast: You can deliver a broadcast to other apps by passing an Intent to sendBroadcast(), sendOrderedBroadcast(), or sendStickyBroadcast().
+        </item>
+        <item>
+            DDMS is the Dalvik Debug Monitor Server that ships with Android. It provides a wide array of debugging features including:
+
+port-forwarding services
+screen capture
+thread and heap information
+network traffic tracking
+incoming call and SMS spoofing
+simulating network state, speed, and latency
+location data spoofing
+        </item>
+    </string-array>
+</resources>

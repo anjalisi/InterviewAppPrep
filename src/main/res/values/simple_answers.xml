@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="simple_ans">
+        <item>Android is an open source and Linux-based Operating System for mobile devices such as smartphones and tablet computers. Android was developed by the Open Handset Alliance, led by Google, and other companies.Android offers a unified approach to application development for mobile devices which means developers need only develop for Android, and their applications should be able to run on different devices powered by Android.
+        </item>
+        <item>The Google Android SDK is a tool-set that developers need in order to write apps on Android enabled devices. It contains a graphical interface that emulates an Android driven handheld environment, allowing them to test and debug their codes.
+        </item>
+        <item>OnCreate() − The system will call this,when an activity is created first time.
+            onStart() − The system will call this,when an activity starts
+            the actions/action on UI.
+            onResume() − The system will call this, when onRestart() or
+            onPause() is called.
+            onPause() − The system will call this, when an activity going
+            into the background.
+            onStop() − The system will call this, when an activity going into
+            stop.
+            onRestart() − The system will call this, when an activity going
+            to stop stage and to start the activity again.
+            onDestroy() − The system will call this, when an activity going
+            in stop mode.
+        </item>
+        <item>
+            We can stop the services by stopSelf() and stopService(), in
+            some cases android will kill the services due to the low
+            memory problem.
+        </item>
+        <item>We can store structured data in SQlite database only. SQlite
+            database is very efficient and faster to read and store the
+            data.
+        </item>
+        <item>HTTP Client has the capabilities to manage
+            1. Connections
+            2. Cookies
+            3. Authentication
+        </item>
+        <item>Json elements are
+            1. Number
+            2. String
+            3. Boolean
+            4. Null
+            5. Array
+            6. Object
+        </item>
+        <item>
+            Bean class can hold other states and objects. It
+            contains all fields which are private with setter and getter.
+        </item>
+        <item>Using FragmentManager.findFragmentByID(R.id.fragment), we can find the fragment/fragments which are placed on the layout</item>
+        <item>
+org.json is the package name of JSON object and JSON array
+        </item>
+        <item>
+            We can store persist data in android in shared preferences, internal/external storage, SQlite, and Network servers.
+        </item>
+        <item>
+            Context is used to create new components or objects like views and it is used to start activity and services. Android has two kinds of contexts and those are getContext() and getApplicationContext().
+        </item>
+        <item>Android is having Linear Layout(Horizontal and Vertical), Frame Layout, Table Layout,
+            and Relative Layout.</item>
+        <item>
+            The concurrent executable unit is called a thread. Its performs some background
+            functionalities with services.
+        </item>
+        <item>
+            Manifest.xml is having information about application as number components in your
+            application,Activity information,service information, and icon about an application
+Each application has at least one Manifest file. Without manifest file we cant generate the APK file.
+        </item>
+        <item>The super.onCreate() will create the graphical window for subclasses and place at onCreate() method.</item>
+    </string-array>
+
+</resources>

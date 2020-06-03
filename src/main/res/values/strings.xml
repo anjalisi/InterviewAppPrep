@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name" translatable="false">Android Prep</string>
+    <string name="sq">Simple Questions</string>
+    <string name="tq">Tough Questions</string>
+    <string name="bap"> See Our Other Apps</string>
+    <string name="rq">Rate Our App</string>
+    <string name="tv_xx">XX/</string>
+    <string name="tv_yy">YY</string>
+    <string name="tv_question">Question</string>
+    <string name="tv_answer">Press A button for Answer</string>
+    <string name="titlebarquestion"> Category Questions</string>
+    <string name="titlebarfront">CRACK INTERVIEW </string>
+</resources>

@@ -31,7 +31,7 @@ After that you can simply take the files and paste it in the required folders. E
 # How do you use this repository?
 Clone or download this repo<br>
 ```
-https://github.com/anjalisi/Brain-Trainer-App 
+https://github.com/anjalisi/InterviewAppPrep
 ```
 After that you can simply take the files and paste it in the required folders. Et Voila !
 
